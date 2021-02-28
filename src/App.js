@@ -1,6 +1,7 @@
 import React from "react";
 import "./app.scss";
 
+
 class App extends React.Component {
   constructor() {
     super();
@@ -23,7 +24,7 @@ class App extends React.Component {
         </div>
 
         {this.state.people.map((person, idx) => {
-          return  <div key ={idx}><h1>{person.name + `${idx}`}</h1></div>;
+          return <div key={idx}><h1>{person.name + `${idx}`}</h1></div>;
         })}
 
         <button onClick={this.handlClick}>Change state content</button>
@@ -33,7 +34,7 @@ class App extends React.Component {
 }
 //
 
-//Commoent
+//Comment
 
 // function App() {
 
