@@ -3,6 +3,8 @@ import "./app.scss";
 
 // Class Component
 //
+
+//2
 class App extends React.Component {
   constructor() {
     super();
